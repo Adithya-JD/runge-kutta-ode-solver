@@ -35,9 +35,12 @@ where:
 ### 1. Radioactive Decay
 Solves dN/dt = -λN with comparison to analytical solution.
 
+![Radioactive Decay](Figure_1.png)
+
 ### 2. Simple Harmonic Oscillator
 Solves the coupled system for position and velocity, including phase space visualization.
 
+![Harmonic Oscillator](Figure_2.png)
 ## Usage
 ```python
 from rk4_solver import solve_ode
